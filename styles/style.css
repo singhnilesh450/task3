@@ -1,0 +1,26 @@
+body {
+  background-image: url(../images/background12.webp);
+}
+.container {
+  width: 80%;
+}
+
+.nav-link {
+  height: 2rem;
+  padding: 0rem;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.nav-item {
+  border-right: 2px solid rgb(102, 93, 93);
+}
+.test {
+  background-color: brown;
+}
+.rowid {
+  background-color: brown;
+}
+.lef {
+  margin-left: 8rem;
+}
