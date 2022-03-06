@@ -1,8 +1,11 @@
 body {
   background-image: url(../images/background12.webp);
+  object-fit:fill;
+  background-color: rgb(45, 45, 45);
 }
 .lis a {
   padding-left: 10px;
+  margin-bottom: 0;
 }
 /* .lis li:not(:last-child)::after {
   content: "|";
@@ -165,3 +168,156 @@ body {
 }
 /* cnxjknm */
 
+/* second container */
+.insided2{
+  width: 82vw;
+  margin-left: 9vw;
+  background-color: rgb(255, 255, 255);
+  height:25vh
+}
+.img-cont2{
+  height: 99.99%;
+  width: 99.99%;
+  border:0.4rem solid rgb(63, 54, 54)
+  
+}
+.imaget{
+  flex-basis: 33%;
+  
+}
+.desc1{
+  /* padding: 2%;; */
+  font-size: 0.8rem;
+}
+.wrap1{
+  position: relative;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  z-index: 1;
+}
+.wrap1 p{
+  margin-bottom: 0.2rem;
+}
+/* .wrap1 > a{
+  margin-right: auto;
+text-align: end;
+} */
+.overlap{
+  /* position:absolute; */
+  margin-top: -5.1rem;
+  height: auto;
+  /* z-index: -1; */
+}
+.overlap1{
+  /* position:absolute; */
+  margin-top: -3rem;
+  /* z-index: -1; */
+}
+.overlap3{
+  /* position:absolute; */
+  display: block;
+  margin-left: auto;
+  margin-top: -5rem;
+  /* z-index: -1; */
+}
+.just{
+  /* margin-right: auto; */
+  display: block;
+  text-align: right;
+}
+/* #names{
+  position: relative;
+  width:40%;
+  z-index: 1;
+} */
+.shift{
+  margin-left: 1rem;;
+}
+.imma{
+  flex-direction: column;
+  /* overflow-y: auto; */
+}
+
+
+/* footer */
+.foot{
+  width: 82vw;
+  margin-left: 9vw;
+  color: rgb(117, 114, 115);
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.footerlist{
+list-style: none;
+/* margin-right: auto; */
+padding-left: 0;
+display: inline-block;
+}
+.footerlist li{
+  display: inline-block;
+}
+.footerlist li a{
+  text-decoration: underline!important;
+}
+  
+.sec_fir{
+  display: flex;
+}
+.linkk{
+  margin-left: auto;
+  text-decoration: none;
+  color: rgb(144, 142, 143);
+}
+.sec_second{
+display: flex;
+align-items: center;
+}
+.sec_second p{
+  margin-bottom: 0;
+}
+.inp{
+  margin-left: auto;
+  margin-right: 11rem;
+}
+.just,
+.shift{
+  color: rgb(144, 142, 143) ;
+  text-decoration: none;
+}
+
+
+/* third nav */
+.hs{
+display: flex;
+}
+.hs ul{
+list-style: none;
+margin-bottom: 0;
+
+
+}
+.hs li{
+  display: inline-block;
+}
+.icon{
+  margin-left: auto;
+  margin-right: 8rem;
+}
+.hsha{
+  margin-left: 7rem;
+}
+.hsha ul{
+  /* display: inline-block; */
+  /* line-height: 1rem; */
+  /* align-items: flex-end; */
+  /* vertical-align: middle; */
+ margin-top: 1.5rem;
+ color: rgb(85, 124, 163);
+}
+.nich li{
+  list-style: circle;
+  padding-left: 30px;
+  padding-right: 40px;
+}
