@@ -3,7 +3,7 @@
     width: 50%;
   }
   .row > * {
-    width: 50%;
+    width: 50% !important;
   }
 }
 /* Extra small devices (phones, 600px and down) */
